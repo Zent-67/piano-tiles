@@ -6,7 +6,7 @@ window.onload = function() {
     const laneContainer = document.getElementById('lane-container');
 
     // Siguraduhin na may music.mp3 ka sa folder
-    const song = new Audio('fitterkarma - Kalapastangan (Lyrics).mp3');
+    const song = new Audio('https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3');
     
     let score = 0;
     let gameActive = false;
@@ -108,4 +108,5 @@ window.onload = function() {
 
         spawner = setInterval(createTile, spawnRate);
     });
+
 };
